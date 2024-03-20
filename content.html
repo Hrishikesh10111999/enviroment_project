@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="content.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <!-- <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+        <a href="index.html" class="logo"> <img src="image/Logo11.png" alt=""></a>
+        <a href="index.html" class="logo1"> Environment & Sustainability </a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="content.html">Content</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </header>
+
+    <section class="content" id="content">
+        <h2 class="title">Contents</h2>
+
+        <div class="blog-slider">
+            <div class="blog-slider__wrp swiper-wrapper">
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="img/com.jpg" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code">Content 1</span>
+                        <div class="blog-slider__title">9 Companies with Great Environmental Initiatives</div>
+                        <div class="blog-slider__text">More companies are shifting priorities by using business intelligence to not only save on costs but to also become environmentally aware. Business intelligence’s ability to keep track of performance, as well as alert decision makers
+                            on behavioural changes, make it a complementary approach as demonstrated by the desire by many companies to become more eco-friendly. Even then, there is need for a clear roadmap that will tie in business intelligence with
+                            green initiatives.</div>
+                        <a href="https://www.smartcitiesdive.com/ex/sustainablecitiescollective/9-companies-great-environmental-initiatives/1193165/" class="blog-slider__button">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="img/case.jpeg" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code">Content 2</span>
+                        <div class="blog-slider__title">CIAB Case Study</div>
+                        <div class="blog-slider__text">Sustainable development is a broad concept covering the way in which human activities impact on economic development, the environment and social well-being. It is generally accepted that both governments and industry should promote
+                            development that is sustainable in all three dimensions, but practical application of the concept is complex because its objective assessment is elusive. While the concept can be readily and widely accepted in general terms,
+                            a consensus viewpoint on the value of individual actions is more difficult to achieve because of the absence of criteria permitting objective assessment of their “sustainable” qualities.</div>
+                        <a href="#" class="blog-slider__button">READ MORE</a>
+                    </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code">08 February 2022</span>
+                        <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+                        <div class="blog-slider__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos esse vero cumque pariatur.</div>
+                        <a href="#" class="blog-slider__button">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-slider__pagination"></div>
+        </div>
+
+
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+        <script>
+            var swiper = new Swiper('.blog-slider', {
+                spaceBetween: 30,
+                effect: 'fade',
+                loop: true,
+                mouseWheel: {
+                    invert: false,
+                },
+                // autoHeight: true
+                pagination: {
+                    el: '.blog-slider__pagination',
+                    clickable: true,
+                }
+            });
+        </script>
+
+    </section>
+
+
+    <footer>
+        <footer class="footer">
+            <div class="container">
+                <h5>Final Year Project @2024</h5>
+            </div>
+        </footer>
+    </footer>
+
+</body>
